@@ -10,6 +10,8 @@ resource "google_container_cluster" "my-cluster" {
   remove_default_node_pool = true
   #SubnetWork
   subnetwork = google_compute_subnetwork.restricted-subent.self_link
+ 
+ 
   master_authorized_networks_config{
   cidr_blocks{
     cidr_block = "10.2.0.0/24"
