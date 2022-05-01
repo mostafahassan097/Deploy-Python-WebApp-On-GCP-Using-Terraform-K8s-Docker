@@ -5,11 +5,11 @@ resource "google_container_cluster" "my-cluster" {
   #name Of Location
   location = "europe-north1"
   #VPC Name
-  network = google_compute_network.my-vpc.name
-  # When Cluster is Create you have at least 
+  network = google_compute_network.my-vpc.self_link
+  # When Cluster is Create you have at least
   remove_default_node_pool = true
   #SubnetWork
-    subnetwork = google_compute_subnetwork.restricted-subent.name
+    subnetwork = google_compute_subnetwork.restricted-subent.self_link
   initial_node_count       = 1
   #Logging Service 
   logging_service = "logging.googleapis.com/kubernetes"
