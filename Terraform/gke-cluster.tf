@@ -11,10 +11,11 @@ resource "google_container_cluster" "my-cluster" {
   #SubnetWork
   subnetwork = google_compute_subnetwork.restricted-subent.self_link
  
- 
+ #To Restrict Access to be through only management subnet 
+
   master_authorized_networks_config{
   cidr_blocks{
-    cidr_block = "10.2.0.0/24"
+    cidr_block = "10.2.0.0/24" # Management Subnet Cidr
   }
 }
   initial_node_count       = 1

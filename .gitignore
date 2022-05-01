@@ -1,5 +1,5 @@
-./Terraform/.terraform
-./Terraform/.terraform.lock.hcl
-./Terraform/terraform*
-./Terraform/*.json
+/Terraform/.terraform
+/Terraform/.terraform.lock.hcl
+/Terraform/terraform.*
+/Terraform/terra-ca.json
 *.json
