@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "omega-fabric-348508",
+  "private_key_id": "59b864582fe6f869461947468a14902ab16582b6",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCralWeijbasGd0\nZhuEsW50Y6TRQaVFkfHGm+KUmEbm/iz2RyARGWNp5Pj/ZcvABXpPQeV2U2HwCkGV\n0oSKQ0nz7SQlnvoKtK5Rig7LmHnQRFWDFb1HChj0q42i3LXqV4SwXr/H4XGqkCSa\n08PoqeWFXCaYgVJkNichrkyAKYcpYYCF0Pp2D+9LYk6Lot6s3DNSKBooR+A3Qe5G\nOmZEXcvBLDSkEBACVE93ZDT5X1UGrBU1LgPpDJBPYOfvf6nAtXbMM6xtpmxheZqW\n8zhUahQoy85vVNDMHmUmm//NzpAM2ejmoG9jlFvpp59xZexik0kNcmaMmvTwhg1x\nceEUeoZdAgMBAAECggEADhYHYidWeaMcZUbMxRs1ie/0R9PeqnhjR2Bg/rgCv5Gs\njTJsEquk7TtJMOejFiz9D41JN2+DsU+OcyrhBGGiLp7SpRrKzl1po762F4n4nKI4\n6rQ7IR7VzSlZ0sPTWSYG+91VYi4HAq6kq2pyg2iOuWZIr6iU5jJDBfQGSlPfTQmZ\nED+Oso1ExjB5uPP4198wfPGDDa7xGw/ph75fpsbgi2q6BzSo+3Yt+aj+Ae751bpQ\nVto1Xby+WRMC0pdmU2rS7F1yDOPP9XA3l9O9NjdRgva8Iml6h8LmwBAswvhOkaH/\nytVjkvA2ycEvuN1J41XjqgpkqaWN2AE6PtVDYLDmYQKBgQDkmjUSrbQHdPJynFGv\nUgq+ilZO3kGKBfNV9GxlZb6H0/NyAbdFae/5+Jx6RkcW1FpB7OFnyz7u7Ts2n/md\nqjq5c9rcQTvsLIyRG+ql5Dld1csnOWd2OXf4aeyfwH7iM1kZHDBANnCXhgpUdjF4\nsJNHqRQ++m6X4Uj6Emv/iDSxMQKBgQC/9Y/VhiTwid6w92+2UG4jawHgPio8VVZ1\nKPPw/FqcBNVwPEGiBLFeFTrsKdBzyFtgbgoxZx7vX5AzJdMnKu+o304fL0A5v3Vd\nteni5LiUj5kX6MW8b6TO2eAJIJVdFycj743yFAcLkwgnHRjMXbUK7RmBGfJlHSm3\njep3khs87QKBgAU8VuzXl6D4F7lyRRir210j0/g4dO3RVxJn57emzedUfmXlDiqD\n06A5BnRyeZxXPr31y+/Rot5cBpgor9HhnTi0I5YZ1GKDXrDQH96uzHWOuPlsAiee\nB1ZkLqw1/3H01RyTHbPKy2ddBY2Lq3RlLupcP/91QuUtnrtDgr+2geZxAoGANwuK\nsFckNpnCcwqxTR1pR9zCj/QjlmN+RGB2+07SCNVWAzY0N+qSlgEOgXRIIzt8AH3t\njFcextOnfRNGpn+oc8t9EnIxP54IYNPuerLNv0QiSXnlYfC92NcfaF6gli4yehqS\noK1fi9Eg0F6GouvoI3b0DlJLcPVY5hra9mi+SM0CgYEApdGJxg2a+GPN99n+V1DU\n6NSENs5DoULLdLo5mlZAL7N+hwWlKTLgfUcNq0HF8i1GrRveCF5rUWSPUROWW401\n8SbxEPS2fBQCMP6hHdcyO3BuFK5vsPphxIafTSSoJwNnA/VQEUasoD0weaMeQAL/\nERJeg72bUGQYx63oWBdANig=\n-----END PRIVATE KEY-----\n",
+  "client_email": "terra-sa@omega-fabric-348508.iam.gserviceaccount.com",
+  "client_id": "115033453737890522248",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/terra-sa%40omega-fabric-348508.iam.gserviceaccount.com"
+}
