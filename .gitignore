@@ -2,3 +2,4 @@
 ./Terraform/.terraform.lock.hcl
 ./Terraform/terraform*
 ./Terraform/*.json
+*.json
