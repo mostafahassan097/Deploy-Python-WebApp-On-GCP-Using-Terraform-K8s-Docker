@@ -1,7 +1,7 @@
 
-resource "google_compute_instance" "management-instance" {
-  name         = "management-instance"
-  machine_type = "f1-micro"
+resource "google_compute_instance" "prv-instance" {
+  name         = "prv-instance"
+  machine_type = "e2-micro"
   zone         = "europe-north1-a"
 
    boot_disk {
@@ -10,7 +10,6 @@ resource "google_compute_instance" "management-instance" {
     }
   }
 
-
 #   metadata = {
 #     foo = "bar"
 #   }
@@ -18,9 +17,9 @@ resource "google_compute_instance" "management-instance" {
 #   metadata_startup_script = "echo hi > /test.txt"
 network_interface{
 
-    network= google_compute_network.my-vpc.name
+    network= google_compute_network.my-vpc.self_link
 
-    subnetwork = google_compute_subnetwork.management-subnet.name
+    subnetwork = google_compute_subnetwork.management-subnet.self_link
 }
   service_account {
     # Google recommends custom service accounts that have cloud-platform scope and permissions granted via IAM Roles.
