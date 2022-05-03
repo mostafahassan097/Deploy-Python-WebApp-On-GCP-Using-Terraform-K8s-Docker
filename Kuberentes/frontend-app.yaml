@@ -1,39 +1,32 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: front-app
+  name: frontend-app
 spec:
-  # How many copies of each pod do we want?
   replicas: 3
- 
+
   selector:
     matchLabels:
-      # This must match the labels we set on the pod!
-      app: front-app
- 
-  # This template field is a regular pod configuration
-  # nested inside the deployment spec
+      app: frontend-app
   template:
     metadata:
-      # Set labels on the pod.
-      # This is used in the deployment selector.
       labels:
-        app: front-app
+        app: frontend-app
     spec:
       containers:
-        - name: front-app
-          image: front-app
+        - name: frontend-app
+          image: gcr.io/omega-fabric-348508/front-app-v1
           ports:
             - containerPort: 9000
           env:
             - name: ENVIRONMENT
-              value: "DEV"
+              value: "DEV" #Could Be PROD in another namespace PROD
             - name: HOST
               value: "localhost"
             - name: PORT
               value: "9000"
             - name: REDIS_HOST
-              value:  "0.0.0.0"
+              value:  "10.52.11.150" #backend service Cluster IP
             - name: REDIS_PORT
               value: "6379"
             - name: REDIS_DB

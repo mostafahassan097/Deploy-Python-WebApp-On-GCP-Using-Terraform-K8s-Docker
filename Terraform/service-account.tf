@@ -11,7 +11,7 @@ resource "google_project_iam_member" "kub-admin" {
   member  = "serviceAccount:${google_service_account.kubernetes-sa.email}"
 }
 
-resource "google_project_iam_member" "storage-rol" {
+resource "google_project_iam_member" "storage-role" {
   project = "omega-fabric-348508"
   role = "roles/storage.admin"
   member  = "serviceAccount:${google_service_account.kubernetes-sa.email}"

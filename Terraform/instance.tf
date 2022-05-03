@@ -9,12 +9,6 @@ resource "google_compute_instance" "prv-instance" {
       image = "debian-cloud/debian-9"
     }
   }
-
-#   metadata = {
-#     foo = "bar"
-#   }
-
-#   metadata_startup_script = "echo hi > /test.txt"
 network_interface{
 
     network= google_compute_network.my-vpc.self_link
