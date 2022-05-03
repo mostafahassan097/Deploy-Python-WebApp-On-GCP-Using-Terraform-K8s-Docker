@@ -37,7 +37,7 @@ terrafrom apply
 ### Cluster
 ![App Screenshot](https://github.com/mostafahassan097/GCP-DevOps-Task/blob/main/Screenshots/c-1.png)
 ![App Screenshot](https://github.com/mostafahassan097/GCP-DevOps-Task/blob/main/Screenshots/c-2.png)
-![App Screenshot](https://github.com/mostafahassan097/GCP-DevOps-Task/blob/main/Screenshots/c3.png)
+![App Screenshot](https://github.com/mostafahassan097/GCP-DevOps-Task/blob/main/Screenshots/c-3.png)
 
 
 # 2- Steps To Dockerize Python  WebApp
