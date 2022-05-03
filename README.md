@@ -59,11 +59,11 @@ terrafrom apply
 #### Images On Google Container Registry
 ![App Screenshot](https://github.com/mostafahassan097/GCP-DevOps-Task/blob/main/Screenshots/img.png)
 
-## Deploy Python WebApp Using Kubernetes
+# 3- Deploy Python WebApp Using Kubernetes
 - SSH to Bastion instance
 - install kubectl by this command {sudo apt-get install kubectl}
 - install docker ([Link](https://docs.docker.com/engine/install/ubuntu/)).
-- Create a Cluster IP service for redis to be accssible within Cluster
+- Create a Cluster IP service for redis to be accessible within Cluster
 - Create a Deployment of 3 replicas from image (front-app-v1) have been pushed to GCR and add env vars including genrated CLuster IP service name  as host of redis that will be used by webapp 
 - Create a Deployment of 3 replicas from image (redis-image)  have been pushed to GCR.
 - Create a LoadBalancer Service to expose our webapp and distrbute incoming to webapp pods
