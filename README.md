@@ -64,8 +64,8 @@ terrafrom apply
 - install kubectl by this command {sudo apt-get install kubectl}
 - install docker ([Link](https://docs.docker.com/engine/install/ubuntu/)).
 - Create a Cluster IP service for redis to be accessible within Cluster
-- Create a Deployment of 3 replicas from image (front-app-v1) have been pushed to GCR and add env vars including genrated CLuster IP service name  as host of redis that will be used by webapp 
-- Create a Deployment of 3 replicas from image (redis-image)  have been pushed to GCR.
+- Create a Deployment of 3 replicas from image (front-app-v1) has been pushed to GCR and add env vars including genrated CLuster IP service name  as host of redis that will be used by webapp 
+- Create a Deployment of 3 replicas from image (redis-image)  has been pushed to GCR.
 - Create a LoadBalancer Service to expose our webapp and distrbute incoming to webapp pods
 - Access Webapp From a Browser
 
